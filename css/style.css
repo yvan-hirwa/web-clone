@@ -396,3 +396,127 @@ button[type="submit"]:hover {
   margin: 8px 0 22px 22px;
   line-height: 1.25;
 }
+
+/* holidays */
+
+.holiday-homes-section {
+  background: #fff;
+  padding: 32px 0 48px 0;
+  width: 100%;
+}
+
+.holiday-homes-section h2 {
+  color: #1a1d36;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 3.5%;
+  margin-bottom: 0.2em;
+}
+
+.holiday-homes-subtitle {
+  color: #4b5563;
+  font-size: 1.18rem;
+  margin-left: 3.5%;
+  margin-bottom: 0.5em;
+}
+
+.holiday-homes-period {
+  color: #222;
+  font-size: 1.1rem;
+  margin-left: 3.5%;
+  margin-bottom: 28px;
+}
+
+.holiday-homes-period-dates {
+  font-weight: 700;
+  color: #1a1d36;
+}
+
+.holiday-homes-cards {
+  display: flex;
+  gap: 28px;
+  justify-content: flex-start;
+  margin-left: 3.5%;
+}
+
+.holiday-home-card {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  width: 300px;
+  min-width: 260px;
+  max-width: 320px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 18px;
+}
+
+.holiday-home-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+}
+
+.holiday-home-badge {
+  display: inline-block;
+  background: #eaf7f0;
+  color: #008a5a;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 4px 12px 4px 8px;
+  margin: 14px 0 8px 14px;
+}
+
+.holiday-home-badge span:first-child {
+  background: #008a5a;
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 7px;
+  margin-right: 7px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.holiday-home-reviews {
+  color: #666;
+  font-weight: 400;
+  font-size: 0.97em;
+  margin-left: 4px;
+}
+
+.holiday-home-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 2px 14px;
+  line-height: 1.2;
+}
+
+.holiday-home-location {
+  font-size: 1rem;
+  color: #444;
+  margin: 0 0 8px 14px;
+}
+
+.holiday-home-price {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 2px 14px;
+}
+
+.holiday-home-per-night {
+  font-size: 1rem;
+  color: #222;
+  margin: 0 0 0 14px;
+}
+
+.holiday-home-taxes {
+  color: #666;
+  font-size: 0.97em;
+  font-weight: 400;
+}
