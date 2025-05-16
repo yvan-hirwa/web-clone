@@ -145,3 +145,84 @@ button[type="submit"]:hover {
   color: #fff;
   font-weight: 500;
 }
+.register-btn {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.register-btn:hover {
+  background: #1769aa;
+}
+
+.message-section {
+  background: #fff;
+  width: 100%;
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.accommodation-section {
+  background: #fff;
+  padding: 32px 0 48px 0;
+  width: 100%;
+}
+
+.accommodation-section h2 {
+  color: #1a1d36;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 6%;
+  margin-bottom: 28px;
+}
+
+.accommodation-cards {
+  display: flex;
+  gap: 28px;
+  justify-content: flex-start;
+  margin-left: 6%;
+}
+
+.accommodation-card {
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 240px;
+  height: 320px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.accommodation-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.accommodation-label {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  margin: 0 0 18px 18px;
+  align-self: flex-start;
+  background: none;
+  text-transform: none;
+}
